@@ -1,0 +1,28 @@
+body
+{
+    background-color: aliceblue;
+    font-family: "Roboto";
+}
+table {
+    text-align: center;    
+    border-collapse: collapse;
+    width:180px;
+    height:250px;   
+    background-image: url("images/nature.jpg");  
+    background-size: cover;
+ } 
+ th, td {
+    border: 1px solid brown;
+    background-color: blanchedalmond;
+    color:rgb(219, 52, 58);
+    font-style:bold;
+ } 
+ th
+ {text-align: end;}
+ td:hover {
+    background-color: lightcoral;
+    color: white;
+ }
+ h3{
+    color:rgb(47, 57, 255);
+ }
