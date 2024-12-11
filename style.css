@@ -10,10 +10,11 @@ table {
     height:250px;   
     background-image: url("images/nature.jpg");  
     background-size: cover;
+    background-color:lavenderblush;
+    background-blend-mode:soft-light;
  } 
  th, td {
-    border: 1px solid brown;
-    background-color: blanchedalmond;
+    border: 1px solid brown;    
     color:rgb(219, 52, 58);
     font-style:bold;
  } 
