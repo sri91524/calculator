@@ -1,29 +1,51 @@
 body
 {
-    background-color: aliceblue;
     font-family: "Roboto";
 }
 table {
-    text-align: center;    
-    border-collapse: collapse;
+    text-align: center;        
     width:180px;
-    height:250px;   
-    background-image: url("images/nature.jpg");  
-    background-size: cover;
-    background-color:lavenderblush;
-    background-blend-mode:soft-light;
- } 
+    height:250px;  
+    background-color:rgb(235, 240, 245); 
+    border-radius: 6px;
+} 
  th, td {
-    border: 1px solid brown;    
-    color:rgb(219, 52, 58);
-    font-style:bold;
- } 
+    border-radius:15px;  
+    color:white;
+    font-style:bold;   
+    width:20px;    
+ }
+
+ .trheight
+ {
+   height:30px;
+ }
+ .tdblack
+ {
+   background-color:rgba(0, 0, 0, 0.634);
+ }
+ .tdaqua
+ {
+   background-color:rgba(135, 206, 250, 0.412);
+ }
+ .tdblue
+ {
+   background-color: rgb(154, 147, 218);
+ }
+ .tdgray
+ {
+   background-color: rgb(179, 179, 239);
+   padding: 2px;
+ }
+
  th
  {text-align: end;}
  td:hover {
-    background-color: lightcoral;
+    background-color: rgb(139, 128, 240);
     color: white;
  }
  h3{
-    color:rgb(47, 57, 255);
+    color:rgb(145, 21, 85);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
  }
